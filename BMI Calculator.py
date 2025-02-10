@@ -7,4 +7,4 @@ weight = float(input("Now the hard part, I won't look. What is your weight in po
 # Calculate the bmi using weight and height.
 bmi = (weight*703)/height/height
 
-print("Your total BMI is: ",int(bmi))
+print("Your total BMI is: ",round(bmi))
